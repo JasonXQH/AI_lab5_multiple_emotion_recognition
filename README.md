@@ -30,7 +30,35 @@ pip install -r requirements.txt
 
 ## Repository structure
 
-
+```
+├── README.md
+├── lab5_data
+│   ├── img_with_tags.csv        # 图片路径和标签文件(有两个版本)
+│   ├── img_with_tags2.csv
+│   ├── new_img_txt_tags_df.csv  # 图片路径、文本信息和标签文件
+│   ├── test_without_label.txt   # 文本信息和标签文件
+│   ├── train										# 训练集，里面包含三类不同标签、已经分类的图片文件
+│   │   ├── negative
+│   │   ├── neutral
+│   │   └── positive
+│   ├── train.txt
+│   ├── train2
+│   │   ├── negative
+│   │   ├── neutral
+│   │   └── positive
+│   ├── txt_with_tags.csv
+│   ├── val										# 验证集，里面包含三种不同标签、已经分类的图片文件
+│   │   ├── negative
+│   │   ├── neutral
+│   │   └── positive
+│   ├── val2
+│       ├── negative
+│       ├── neutral
+│       └── positive	
+├── requirements.txt         # 依赖库
+└── 代码											# 代码文件
+    └── lab5.ipynb
+```
 
 ## Run pipeline for big-scale datasets
 
