@@ -4,25 +4,25 @@
 
 colab: https://colab.research.google.com/drive/1BmWJFEj0IPEnALF63qISiw2tz4Ln8vsd?usp=sharing
 
-github: 
+github: https://github.com/JasonXQH/AI_lab5_multiple_emotion_recognition
 
 ## Setup
 
 可以直接使用如下指令安装实验所需要的各个依赖库
 
-> nltk                          3.7
-> numpy                         1.21.6
-> wandb                         0.12.21
-> pandas                        1.3.5
-> torch                         1.11.0+cu113
-> pathlib                       1.0.1
-> matplotlib                    3.2.2
-> torchvision                   0.12.0+cu113
-> transformers                  4.20.1
-> torchmetrics                  0.9.2
-> torchsummary                  1.5.1
-> opencv-python                 4.1.2.30
-> pytorch-lightning             1.6.4
+> nltk                          3.7<br>
+> numpy                         1.21.6<br>
+> wandb                         0.12.21<br>
+> pandas                        1.3.5<br>
+> torch                         1.11.0+cu113<br>
+> pathlib                       1.0.1<br>
+> matplotlib                    3.2.2<br>
+> torchvision                   0.12.0+cu113<br>
+> transformers                  4.20.1<br>
+> torchmetrics                  0.9.2<br>
+> torchsummary                  1.5.1<br>
+> opencv-python                 4.1.2.30<br>
+> pytorch-lightning             1.6.4<br>
 
 ```python
 pip install -r requirements.txt
